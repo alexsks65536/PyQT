@@ -4,7 +4,6 @@
 По результатам проверки должно выводиться соответствующее сообщение.
 """
 
-# from task_1 import check_is_ipaddress, host_ping
 from task_1 import check_is_ipaddress, host_ping
 
 
