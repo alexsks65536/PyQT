@@ -22,8 +22,6 @@ result = {'Доступные узлы': "", "Недоступные узлы": 
 DNULL = open(os.devnull, 'w')  # заглушка, чтобы поток не выводился на экран
 
 
-# https://stackoverflow.com/questions/52435965/difference-between-os-devnull-and-subprocess-pipe
-
 def read2list(file):
     """
     :param file: имя открываемого файла с перечнем адресов.
